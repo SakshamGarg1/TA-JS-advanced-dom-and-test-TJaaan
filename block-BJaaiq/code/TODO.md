@@ -8,4 +8,5 @@
 - Using the lifecycle events like `DOMContentLoaded` display a alert message saying the `The content of the DOM is loaded`
 - You can use the image given below for help to understand.
 
+
 ![](./terms.png)
