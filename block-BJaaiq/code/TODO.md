@@ -12,6 +12,7 @@
 ![](./terms.png)
 let root = document.querySelector('ul');
 
+```js
 let max =  6;
 let index = 0;
 
@@ -36,11 +37,12 @@ document.addEventListener('scroll', () => {
        let scrollHeight = document.documentElement.scrollHeight;
        let clientHeight = document.documentElement.clientHeight;
        
-       if(scrollTop + clientHeight >= scrollHeight){
-      addQuotes();
+       if(scrollTop + clientHeight >= scrollHeight && index < quotes.length){
+       addQuotes();
 }
 
 });
 
+```
 
 
