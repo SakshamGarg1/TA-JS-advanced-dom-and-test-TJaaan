@@ -36,8 +36,8 @@ document.addEventListener('scroll', () => {
        let scrollHeight = document.documentElement.scrollHeight;
        let clientHeight = document.documentElement.clientHeight;
        
-       if(scrollTop + clientHeight >= scrollHeight){
-      addQuotes();
+       if(scrollTop + clientHeight >= scrollHeight && index < quotes.length){
+       addQuotes();
 }
 
 });
