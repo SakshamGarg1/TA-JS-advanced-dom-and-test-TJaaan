@@ -12,6 +12,7 @@
 ![](./terms.png)
 let root = document.querySelector('ul');
 
+```js
 let max =  6;
 let index = 0;
 
@@ -42,5 +43,6 @@ document.addEventListener('scroll', () => {
 
 });
 
+```
 
 
